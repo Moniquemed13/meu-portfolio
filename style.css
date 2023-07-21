@@ -5,11 +5,18 @@
 }
 
 body {
-    height: 10px;
+    height: 100vh;
     box-sizing: border-box;
     background-color: black;
     color: white;
     text-align: center;
+    width: px;
+    height: 0px;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    top: 0;
 }
 
 .titulo-destaque {
@@ -18,14 +25,19 @@ body {
 }
 
 .apresentacao {
-    margin: 10% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    top: 0;
+    margin: auto;
+
 }
 
 .apresentacao__conteudo {
-    width: 100%;
+    font-size: 36px;
     text-align: center;
 }
 
